@@ -27,6 +27,7 @@ jobs:
       run: |
         cd src
         javac -cp . Main.java
+        javac -cp . Teste.java
 
 #Executar o projeto
 
@@ -34,3 +35,4 @@ jobs:
       run: |
         cd src
         java -cp . Main
+        java -cp . Teste
