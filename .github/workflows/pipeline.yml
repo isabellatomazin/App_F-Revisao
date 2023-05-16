@@ -34,5 +34,4 @@ jobs:
     - name: Executando projeto
       run: |
         cd src
-        java -cp . Main
         java -cp . Teste
