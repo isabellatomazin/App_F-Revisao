@@ -24,7 +24,9 @@ jobs:
 
 #Compilando com JAVA  
     - name: Compilar o projeto 
-      run: javac -cp src Main,java
+      run: |
+        cd src
+        javac -cp . Main.java
 
 #Executar o projeto
 
